@@ -1384,11 +1384,31 @@ body {
   background-color: #cc2952;
   color: #ffffff;
 }
-.jq-selectbox .jq-selectbox__trigger-arrow {
-  border-top-color: contrast(currentColor, #000000, #ffffff, 30%);
+.jq-selectbox .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:after,
+.jq-number__spin.plus:after {
+  transition: 0.4s;
+  border-top-color: currentColor;
+  border-bottom-color: currentColor;
 }
-.jq-selectbox:hover .jq-selectbox__trigger-arrow {
+.jq-selectbox:hover .jq-selectbox__trigger-arrow,
+.jq-number__spin.minus:hover:after,
+.jq-number__spin.plus:hover:after {
   border-top-color: #cc2952;
+  border-bottom-color: #cc2952;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_default,
+.xdsoft_datetimepicker .xdsoft_calendar td.xdsoft_current,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div.xdsoft_current {
+  color: #ffffff !important;
+  background-color: #cc2952 !important;
+  box-shadow: none!important;
+}
+.xdsoft_datetimepicker .xdsoft_calendar td:hover,
+.xdsoft_datetimepicker .xdsoft_timepicker .xdsoft_time_box > div > div:hover {
+  color: #ffffff !important;
+  background: #ff3366 !important;
+  box-shadow: none !important;
 }
 .cid-rmWnilKj4I {
   padding-top: 90px;
@@ -2013,8 +2033,26 @@ body {
 .cid-rn1VcjROoo .mbr-section-btn I {
   color: #ffffff;
 }
+.cid-rqr0zJtzdl {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #efefef;
+}
+.cid-rqr0zJtzdl P {
+  color: #767676;
+}
+.cid-rqr05E0kJd {
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+.cid-rqr05E0kJd P {
+  color: #767676;
+}
+.cid-rqr05E0kJd H1 {
+  color: #ffffff;
+}
 .cid-royP4yHK28 {
-  padding-top: 75px;
+  padding-top: 0px;
   padding-bottom: 0px;
   background-color: #ffffff;
 }
