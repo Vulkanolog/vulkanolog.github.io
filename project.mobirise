@@ -53,7 +53,7 @@
       }
     ],
     "uniqCompNum": 66,
-    "versionPublish": "4.10.1",
+    "versionPublish": "4.10.3",
     "screenshot": "screenshot.png",
     "robotsText": "User-agent: *\r\nDisallow: /cgi-bin\r\n",
     "robotsSwitcher": "on",
