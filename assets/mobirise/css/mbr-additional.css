@@ -1171,7 +1171,7 @@ pre {
     display: none;
   }
 }
-@media (max-width: 991px) {
+@media (max-width: 1023px) {
   .navbar-toggleable-md .navbar-nav .dropdown-menu {
     position: static;
     float: none;
@@ -1181,7 +1181,7 @@ pre {
     padding-left: 0;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
   .navbar-toggleable-md {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -1952,42 +1952,6 @@ body {
 .cid-rn1VdTqJ8k .mbr-text,
 .cid-rn1VdTqJ8k .mbr-section-btn B {
   color: #ffffff;
-}
-.cid-rqn8kaucZ9 {
-  padding-top: 0px;
-  padding-bottom: 0px;
-  background-color: #efefef;
-}
-.cid-rqn8kaucZ9 P {
-  color: #767676;
-}
-.cid-rn49Dat5F7 {
-  padding-top: 45px;
-  padding-bottom: 45px;
-  background-image: url("../../../assets/images/21-abstract-wallpapers-1600x1200.jpg");
-}
-@media (min-width: 992px) {
-  .cid-rn49Dat5F7 .mbr-figure {
-    padding-left: 4rem;
-  }
-}
-@media (max-width: 991px) {
-  .cid-rn49Dat5F7 .mbr-figure {
-    padding-top: 3rem;
-  }
-}
-.cid-rn49Dat5F7 .mbr-section-title {
-  color: #3d42f2;
-  text-align: center;
-}
-.cid-rn49Dat5F7 .mbr-text,
-.cid-rn49Dat5F7 .mbr-section-btn {
-  color: #232323;
-  text-align: center;
-}
-.cid-rn49Dat5F7 .mbr-text,
-.cid-rn49Dat5F7 .mbr-section-btn I {
-  color: #232323;
 }
 .cid-rqn8kXJMdA {
   padding-top: 0px;
